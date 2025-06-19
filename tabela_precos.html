@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Preços Interativa</title>
+  <link rel="stylesheet" href="tabela_precos.css">
+</head>
+<body>
+  <div class="pricing-list">
+    <div class="plan-card" id="gratis">
+      <div class="plan-header">
+        <div class="plan-header-row">
+          <h2>Plano Grátis</h2>
+          <span class="price">R$ 0</span>
+        </div>
+        <button class="expand-btn expand-btn-gratis" aria-label="Ver detalhes"><span class="expand-btn-text">Clique aqui</span> <span class="expand-btn-seta">&#9660;</span></button>
+      </div>
+      <div class="plan-desc">Anúncio simples e básico para sua empresa aparecer no guia.</div>
+      <div class="plan-details">
+        <div class="banner-exemplo banner-gratis-exemplo">
+          <div class="banner-barra-simples"></div>
+          <div class="banner-conteudo">
+            <div class="banner-titulo">Nome da Empresa</div>
+            <div class="banner-info-linha">Endereço</div>
+            <div class="banner-info-linha">Telefone</div>
+          </div>
+        </div>
+        <ul>
+          <li>Anúncio com nome da empresa</li>
+          <li>Endereço</li>
+          <li>Telefone</li>
+        </ul>
+      </div>
+    </div>
+    <div class="plan-card destaque" id="destaque">
+      <div class="plan-header">
+        <div class="plan-header-row">
+          <h2>Plano Destaque</h2>
+          <span class="price">R$ 20/mês</span>
+        </div>
+        <button class="expand-btn expand-btn-destaque" aria-label="Ver detalhes"><span class="expand-btn-text">Clique aqui</span> <span class="expand-btn-seta">&#9660;</span></button>
+      </div>
+      <div class="plan-desc">Destaque sua marca com banner personalizado, cores e contato direto!</div>
+      <div class="plan-details">
+        <div class="banner-exemplo banner-destaque-exemplo">
+          <div class="banner-barra-colorida"></div>
+          <div class="banner-logo-exemplo">LOGO</div>
+          <div class="banner-conteudo">
+            <div class="banner-titulo">Nome da Empresa</div>
+            <div class="banner-info-linha">Endereço</div>
+            <div class="banner-info-linha">Telefone</div>
+            <div class="banner-botao-exemplo">WhatsApp</div>
+          </div>
+        </div>
+        <ul>
+          <li>Banner com logo e cores da marca</li>
+          <li>Botão para endereço ou WhatsApp</li>
+        </ul>
+      </div>
+    </div>
+    <div class="plan-card premium" id="premium">
+      <div class="plan-header">
+        <div class="plan-header-row">
+          <h2>Plano Premium</h2>
+          <span class="price">R$ 40/mês</span>
+        </div>
+        <button class="expand-btn expand-btn-premium" aria-label="Ver detalhes"><span class="expand-btn-text">Clique aqui</span> <span class="expand-btn-seta">&#9660;</span></button>
+      </div>
+      <div class="plan-desc">Tenha um catálogo exclusivo, totalmente personalizado com a identidade visual da sua marca!</div>
+      <div class="plan-details">
+        <div class="banner-exemplo banner-premium-exemplo">
+          <div class="banner-premium-top">
+            <div class="banner-premium-coroa">👑</div>
+            <div class="banner-premium-logo">LOGO</div>
+            <div class="banner-premium-nome">Nome da Empresa</div>
+          </div>
+          <div class="banner-premium-infos">
+            <div class="banner-premium-info">WhatsApp</div>
+            <div class="banner-premium-info">Endereço</div>
+          </div>
+          <div class="banner-premium-botoes">
+            <div class="banner-premium-botao">Catálogo</div>
+          </div>
+        </div>
+        <ul>
+          <li>Banner com logo e cores da marca</li>
+          <li>Botão para catálogo de até 20 produtos</li>
+          <li>Catálogo personalizado com identidade visual</li>
+          <li>Link personalizado para divulgação nas redes sociais</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="tabela_precos.js"></script>
+</body>
+</html> 
